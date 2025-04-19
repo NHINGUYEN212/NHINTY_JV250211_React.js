@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ứng dụng về Template Literals</title>
+    </head>
+    <body>
+        <script>
+            function sendMail(name, companyName) {
+                return `Dear ${name},
+Thank you for purchasing our product. We hope you enjoy it.
+Best regards,
+${companyName}`;
+            }
+            console.log(sendMail("Nguyen Van A", "ABC Company"));
+            console.log(sendMail("Nguyen Van B", "XYZ Company"));
+        </script>
+    </body>
+</html>
