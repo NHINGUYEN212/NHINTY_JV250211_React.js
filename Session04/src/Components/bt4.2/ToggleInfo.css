@@ -1,0 +1,43 @@
+.toggleContainer {
+    width: 500px;
+    min-height: 300px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    background-color: #f5f3ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px auto;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggleInfo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.toggleBtn {
+    width: 200px;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.toggleBtn:hover {
+    background-color: #205bb3;
+}
+
+.toggleContainer p {
+    text-align: center;
+    margin-top: 20px;
+}
