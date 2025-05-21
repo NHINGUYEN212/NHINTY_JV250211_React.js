@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ứng dụng khai báo let và const</title>
+    </head>
+    <body>
+        <script>
+            function caculateCircle(radius) {
+                const PI = Math.PI;
+                const cicumference = 2 * PI * radius;
+                const area = PI * radius * radius;
+                return {
+                    cicumference: cicumference,
+                    area: area,
+                };
+            }
+
+            const result = caculateCircle(10);
+            console.log("cicumference: ", result.cicumference);
+            console.log("area: ", result.area);
+        </script>
+    </body>
+</html>

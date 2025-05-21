@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng về Rest Parameters</title>
+</head>
+<body>
+    <script>
+        function evenOdd(...numbers) {
+            const evenNumbers = numbers.filter(number => number % 2 === 0);
+            const oddNumbers = numbers.filter(number => number % 2 !== 0);
+
+            const evenSum = evenNumbers.reduce((total, number) => total + number, 0);
+            const oddSum = oddNumbers.reduce((total, number) => total + number, 0);
+
+            return `{Even: ${evenNumbers.join(", ")} . SumEven = ${evenSum}},
+{Odd: ${oddNumbers.join(", ")} . SumOdd = ${oddSum}},`
+        }
+
+        console.log(evenOdd(1, 2, 3, 4, 5));
+        console.log(evenOdd(1, 2, 3, 4));
+        console.log(evenOdd(1, 2, 3));
+    </script>
+</body>
+</html>
