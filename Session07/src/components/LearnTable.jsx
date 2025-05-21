@@ -4,8 +4,8 @@ import { Button, Table } from "react-bootstrap";
 export default function LearnTable() {
     return (
         <div className="text-center mt-10">
-            <h2 className="mb-4">Table</h2>
-            <Table striped bordered hover>
+            <h1 className="mb-4">Table</h1>
+            <Table striped bordered>
                 <thead>
                     <tr>
                         <th>Stt</th>
