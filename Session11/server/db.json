@@ -1,0 +1,37 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Pizza",
+            "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
+            "price": 30,
+            "quantity": 0,
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi saepe porro harum voluptatibus, odio pariatur assumenda velit eius enim maiores dolore suscipit eum molestias quae delectus? Aliquid amet eaque soluta?",
+            "disabled": true
+        },
+        {
+            "id": 2,
+            "name": "Hamburger",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ2VyfGVufDB8fDB8fHww",
+            "price": 15,
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi saepe porro harum voluptatibus, odio pariatur assumenda velit eius enim maiores dolore suscipit eum molestias quae delectus? Aliquid amet eaque soluta?",
+            "quantity": 4
+        },
+        {
+            "id": 3,
+            "name": "Bread",
+            "image": "https://media.istockphoto.com/id/184144759/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E3%83%95%E3%82%A3%E3%83%A9%E3%83%87%E3%83%AB%E3%83%95%E3%82%A3%E3%82%A2-cheesesteak.jpg?s=612x612&w=0&k=20&c=MBD2J5gqRtgEVmciUBNNBt8Je-cUvz6DJqMQRPTokcM=",
+            "price": 20,
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi saepe porro harum voluptatibus, odio pariatur assumenda velit eius enim maiores dolore suscipit eum molestias quae delectus? Aliquid amet eaque soluta?",
+            "quantity": 1
+        },
+        {
+            "id": 4,
+            "name": "Cake",
+            "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNha2V8ZW58MHx8MHx8fDA%3D",
+            "price": 10,
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi saepe porro harum voluptatibus, odio pariatur assumenda velit eius enim maiores dolore suscipit eum molestias quae delectus? Aliquid amet eaque soluta?",
+            "quantity": 1
+        }
+    ]
+}
