@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "taskName": "Quét nhà",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "taskName": "Lau nhà",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "taskName": "Rửa bát",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "taskName": "Giặt quần áo",
+      "completed": true
+    },
+    {
+      "id": "5",
+      "taskName": "Phơi đồ",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "taskName": "Ủi đồ",
+      "completed": true
+    },
+    {
+      "id": "7",
+      "taskName": "Tưới cây",
+      "completed": false
+    },
+    {
+      "id": "8",
+      "taskName": "Nấu cơm",
+      "completed": true
+    },
+    {
+      "id": "9",
+      "taskName": "Đi chợ",
+      "completed": false
+    }
+  ]
+}
