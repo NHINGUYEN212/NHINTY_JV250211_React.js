@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "fullName": "NGUYEN VAN A",
+      "studentCode": "HE173471",
+      "class": "TSU1999"
+    },
+    {
+      "id": "2",
+      "fullName": "NGUYEN VAN B",
+      "studentCode": "HE1909",
+      "class": "TSU1899"
+    },
+    {
+      "id": "3",
+      "fullName": "TRAN VAN C",
+      "studentCode": "HE1908",
+      "class": "TSU1809"
+    },
+    {
+      "fullName": "NGUYEN THI E",
+      "studentCode": "HE19082",
+      "class": "TSU1098",
+      "id": "1748427572682"
+    },
+    {
+      "fullName": "TRAN THI N",
+      "studentCode": "HE1734711",
+      "class": "TSU1209",
+      "id": "1748427841484"
+    }
+  ]
+}
